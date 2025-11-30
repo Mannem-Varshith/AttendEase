@@ -15,7 +15,9 @@ A modern, full-stack Employee Attendance Management System built with React and 
 ---
 
 ## 📋 Table of Contents
+- [Developer](#-developer)
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [Quick Start](#-quick-start)
 - [Installation](#-installation)
@@ -27,6 +29,7 @@ A modern, full-stack Employee Attendance Management System built with React and 
 - [Test Credentials](#-test-credentials)
 
 ---
+
 
 ## ✨ Features
 
@@ -61,6 +64,42 @@ A modern, full-stack Employee Attendance Management System built with React and 
 - 🚀 **Real-time Updates**: Instant data synchronization
 - ☁️ **Cloud-Ready**: MongoDB Atlas integration for production
 - ⚡ **Instant Feedback**: Toast notifications and confirmation dialogs
+
+---
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login-page.png)
+*Premium glassmorphic login page with gradient background*
+
+### Employee Dashboard
+![Employee Dashboard](screenshots/employee-dashboard.png)
+*Employee dashboard with attendance stats, check-in/out buttons, and recent activity*
+
+### Check-In Modal
+![Check-In Modal](screenshots/checkin-modal.png)
+*Smart check-in confirmation with real-time clock and late arrival warnings*
+
+### Attendance Calendar
+![Attendance Calendar](screenshots/attendance-calendar.png)
+*Calendar view with color-coded attendance: Green (Present), Red (Absent), Yellow (Late), Orange (Half-Day)*
+
+### Manager Dashboard
+![Manager Dashboard](screenshots/manager-dashboard.png)
+*Manager dashboard with team statistics and analytics charts*
+
+### All Attendance View
+![All Attendance](screenshots/all-attendance.png)
+*Table showing all employees' attendance records with filters*
+
+### Reports & Export
+![Reports Page](screenshots/reports-page.png)
+*Generate and export CSV reports with advanced filters*
+
+### Create Employee
+![Create Employee](screenshots/create-employee.png)
+*Manager-only employee account creation form*
 
 ---
 

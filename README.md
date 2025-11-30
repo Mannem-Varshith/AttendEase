@@ -77,33 +77,33 @@ A modern, full-stack Employee Attendance Management System built with React and 
 ![Employee Dashboard](screenshots/Screenshot%202025-11-30%20164927.png)
 *Employee dashboard with attendance stats and check-in/out functionality*
 
-### Manager Dashboard  
+### Employee Check in Modal  
 ![Manager Dashboard](screenshots/Screenshot%202025-11-30%20164947.png)
 *Manager dashboard with team overview and statistics*
 
-### All Attendance View
+### Employee attendance View
 ![All Attendance](screenshots/Screenshot%202025-11-30%20165009.png)
-*Comprehensive view of all employees' attendance records*
+*Comprehensive view of employee attendance records*
 
-### Attendance Calendar
+### Manager DashBoard
 ![Attendance Calendar](screenshots/Screenshot%202025-11-30%20165049.png)
-*Monthly calendar view with color-coded attendance status*
+*Manager dashboard with attendance stats*
 
-### Reports Page
+### All Employee Dashboard
 ![Reports Page](screenshots/Screenshot%202025-11-30%20165108.png)
-*Generate and export attendance reports with filters*
+*Comprehensive view of employees attendance record*
+
+### Attendance Report
+![Create Employee](screenshots/Screenshot%202025-11-30%20165203.png)
+*Based on Filters export the attendance report csv file*
+
+### Exported CSV file Attendance record 
+![Settings](screenshots/Screenshot%202025-11-30%20165234.png)
+*Employees data csv exported file view*
 
 ### Create Employee
-![Create Employee](screenshots/Screenshot%202025-11-30%20165203.png)
-*Manager-only employee account creation form*
-
-### Settings Page
-![Settings](screenshots/Screenshot%202025-11-30%20165234.png)
-*User settings with password change functionality*
-
-### Profile Management
 ![Profile](screenshots/Screenshot%202025-11-30%20165354.png)
-*Employee profile and information management*
+*Manager-only employee account creation form*
 
 ---
 

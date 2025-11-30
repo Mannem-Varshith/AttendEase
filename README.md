@@ -70,36 +70,40 @@ A modern, full-stack Employee Attendance Management System built with React and 
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](screenshots/login-page.png)
-*Premium glassmorphic login page with gradient background*
+![Login Page](screenshots/Screenshot%202025-11-30%20164743.png)
+*Clean login interface with demo credentials*
 
 ### Employee Dashboard
-![Employee Dashboard](screenshots/employee-dashboard.png)
-*Employee dashboard with attendance stats, check-in/out buttons, and recent activity*
+![Employee Dashboard](screenshots/Screenshot%202025-11-30%20164927.png)
+*Employee dashboard with attendance stats and check-in/out functionality*
 
-### Check-In Modal
-![Check-In Modal](screenshots/checkin-modal.png)
-*Smart check-in confirmation with real-time clock and late arrival warnings*
-
-### Attendance Calendar
-![Attendance Calendar](screenshots/attendance-calendar.png)
-*Calendar view with color-coded attendance: Green (Present), Red (Absent), Yellow (Late), Orange (Half-Day)*
-
-### Manager Dashboard
-![Manager Dashboard](screenshots/manager-dashboard.png)
-*Manager dashboard with team statistics and analytics charts*
+### Manager Dashboard  
+![Manager Dashboard](screenshots/Screenshot%202025-11-30%20164947.png)
+*Manager dashboard with team overview and statistics*
 
 ### All Attendance View
-![All Attendance](screenshots/all-attendance.png)
-*Table showing all employees' attendance records with filters*
+![All Attendance](screenshots/Screenshot%202025-11-30%20165009.png)
+*Comprehensive view of all employees' attendance records*
 
-### Reports & Export
-![Reports Page](screenshots/reports-page.png)
-*Generate and export CSV reports with advanced filters*
+### Attendance Calendar
+![Attendance Calendar](screenshots/Screenshot%202025-11-30%20165049.png)
+*Monthly calendar view with color-coded attendance status*
+
+### Reports Page
+![Reports Page](screenshots/Screenshot%202025-11-30%20165108.png)
+*Generate and export attendance reports with filters*
 
 ### Create Employee
-![Create Employee](screenshots/create-employee.png)
+![Create Employee](screenshots/Screenshot%202025-11-30%20165203.png)
 *Manager-only employee account creation form*
+
+### Settings Page
+![Settings](screenshots/Screenshot%202025-11-30%20165234.png)
+*User settings with password change functionality*
+
+### Profile Management
+![Profile](screenshots/Screenshot%202025-11-30%20165354.png)
+*Employee profile and information management*
 
 ---
 

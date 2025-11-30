@@ -1,15 +1,20 @@
 import React from 'react';
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const LoadingAnimation = () => {
     return (
         <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-indigo-50 to-blue-50">
-            <div className="w-64 h-64">
-                <DotLottieReact
-                    src="https://lottie.host/4139c4d4-89e7-4322-8b9c-20c2eea38ce6/PG3XXc5elI.lottie"
+            <div className="flex flex-col items-center gap-4">
+                <video
+                    autoPlay
                     loop
-                    autoplay
-                />
+                    muted
+                    playsInline
+                    className="w-64 h-64 object-contain"
+                >
+                    <source src="/loading.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <p className="text-gray-600 text-lg font-medium animate-pulse">Loading...</p>
             </div>
         </div>
     );

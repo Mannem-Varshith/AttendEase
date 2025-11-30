@@ -1,16 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { Analytics } from '@vercel/analytics/react';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import EmployeeDashboard from './pages/EmployeeDashboard';
 import MyAttendance from './pages/MyAttendance';
 import Profile from './pages/Profile';
-import Settings from './pages/Settings';
 import ManagerDashboard from './pages/ManagerDashboard';
 import AllAttendance from './pages/AllAttendance';
 import Reports from './pages/Reports';
-import CreateEmployee from './pages/CreateEmployee';
 import Layout from './components/Layout';
 import ProtectedRoute from './components/ProtectedRoute';
 
@@ -53,16 +50,6 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route
-          path="/settings"
-          element={
-            <ProtectedRoute allowedRoles={['employee', 'manager']}>
-              <Layout>
-                <Settings />
-              </Layout>
-            </ProtectedRoute>
-          }
-        />
 
         {/* Manager Routes */}
         <Route
@@ -95,26 +82,12 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route
-          path="/create-employee"
-          element={
-            <ProtectedRoute allowedRoles={['manager']}>
-              <Layout>
-                <CreateEmployee />
-              </Layout>
-            </ProtectedRoute>
-          }
-        />
 
         {/* Default Route */}
         <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
-      <Analytics />
     </Router>
   );
 }
 
 export default App;
-
-
-
